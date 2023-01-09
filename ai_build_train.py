@@ -17,13 +17,13 @@ while True:
     
     for index in range (len(keywords)):
         if (keywords[index] in userinput):
-            if(train == False):
-                response = "AI: " + responses[index]
-                print(response)
-                keyFound = True
+            reply = "AI: " + responses[index]
+            print(reply)
+            keyFound = True
+            
+            keywords.append(reply)
+            responses.append(userinput)
 
-    keywords.append(response)
-    responses.append(userinput)
         
     if (keyFound == False and train == False):
         print("AI: " + random.choice(randomwords))
