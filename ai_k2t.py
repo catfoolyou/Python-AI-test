@@ -4,7 +4,7 @@ from keytotext import pipeline
 
 gen = pipeline("mrm8488/t5-base-finetuned-common_gen")
 
-print("This is Build 3 of the (not) new dumpster fire(c) AI\nsay something to the funny AI")
+print("This is Build 3 of the really a dumpster fire(c) AI\nsay something to the funny AI")
 
 while True:
 
