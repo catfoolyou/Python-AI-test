@@ -10,7 +10,7 @@ how is your day?
 AI: sure man  
 wdym?  
 AI: idk  
-# Example conversation with build 3 
+# Example conversation with build 3 (deprecated)
 hello, how are you?  
 AI:how are you doing?  
 good  
